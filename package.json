@@ -1,0 +1,20 @@
+{
+  "name": "cyber-portfolio",
+  "version": "1.0.0",
+  "description": "Cybersecurity portfolio of Brainard Ndege",
+  "private": true,
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  },
+  "keywords": [
+    "portfolio",
+    "cybersecurity",
+    "penetration-testing"
+  ],
+  "author": "Brainard Ndege",
+  "license": "ISC"
+}
