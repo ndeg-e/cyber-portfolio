@@ -1,0 +1,27 @@
+{
+  "name": "primary",
+  "version": "1.0.0",
+  "description": "Cybersecurity portfolio showcasing penetration testing projects, vulnerability research, CTF writeups, and hands-on labs using OWASP, Metasploit, and real-world offensive security techniques. Built as a multi-page professional hacker profile. # 🛡️ Cybersecurity Portfolio — Brainard Ndege",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/speed-insights.js --bundle --format=iife --outfile=js/speed-insights.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndeg-e/cyber-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndeg-e/cyber-portfolio/issues"
+  },
+  "homepage": "https://github.com/ndeg-e/cyber-portfolio#readme",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0"
+  }
+}
